@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fadjar Fish Farm - Pusat Spesialis Akuakultur & Pemijahan Ikan Hias</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 antialiased">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 w-full bg-slate-900/90 backdrop-blur-md z-50 border-b border-cyan-900/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="bg-cyan-500 p-2.5 rounded-xl shadow-lg shadow-cyan-500/30">
+                    <i class="fa-solid fa-fish-fins text-2xl text-slate-950"></i>
+                </div>
+                <div>
+                    <span class="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">FADJAR</span>
+                    <span class="text-xs block font-semibold tracking-widest text-slate-400">FISH FARM</span>
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-cyan-400 transition-colors">Tentang Kami</a>
+                <a href="#keahlian" class="hover:text-cyan-400 transition-colors">Fokus Keahlian</a>
+                <a href="#parameter" class="hover:text-cyan-400 transition-colors">Parameter Air</a>
+                <a href="#kontak" class="hover:text-cyan-400 transition-colors">Konsultasi</a>
+            </nav>
+
+            <a href="#kontak" class="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-emerald-500 hover:from-cyan-400 hover:to-emerald-400 text-slate-950 font-semibold px-5 py-2.5 rounded-full transition-all shadow-md shadow-cyan-500/20">
+                <i class="fa-solid fa-comments"></i> Konsultasi
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+        <div class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-900/40 via-slate-900 to-slate-900"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-950/80 border border-cyan-500/30 text-cyan-400 text-xs font-semibold mb-6">
+                <i class="fa-solid fa-flask"></i> Sains Akuakultur & Manajemen Lingkungan Akuatik
+            </span>
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white max-w-4xl mx-auto leading-tight">
+                Pusat Solusi <span class="bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">Pemijahan, Parameter Air</span> & Formulasi Nutrisi Ikan Hias
+            </h1>
+            <p class="mt-6 text-lg text-slate-400 max-w-2xl mx-auto font-light">
+                Pendekatan berbasis logika ilmiah untuk pengontrolan kimia air, biofiltrasi nitrifikasi, perawatan telur dan larva, serta manajemen penyakit terintegrasi.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#keahlian" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold px-8 py-3.5 rounded-xl transition-all shadow-lg shadow-cyan-500/25">
+                    Lihat Layanan Utama
+                </a>
+                <a href="#parameter" class="border border-slate-700 hover:border-cyan-500 text-slate-300 hover:text-white font-medium px-8 py-3.5 rounded-xl transition-all">
+                    Standar Kualitas Air
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pillar/Keahlian Section -->
+    <section id="keahlian" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-white">Fokus & Keahlian Utama</h2>
+            <p class="text-slate-400 mt-2">Empat pilar utama manajemen akuakultur profesional di Fadjar Fish Farm</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Pillar 1 -->
+            <div class="bg-slate-800/50 border border-slate-700/50 p-6 rounded-2xl hover:border-cyan-500/50 transition-all">
+                <div class="w-12 h-12 bg-cyan-500/10 text-cyan-400 rounded-xl flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-droplet"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">1. Kimia & Parameter Air</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Pengaturan akurat pH, GH/KH, TDS, dan suhu untuk osmoregulasi optimal. Penanganan cepat terhadap lonjakan Amonia (NH3), Nitrit (NO2), dan Nitrat (NO3).
+                </p>
+            </div>
+
+            <!-- Pillar 2 -->
+            <div class="bg-slate-800/50 border border-slate-700/50 p-6 rounded-2xl hover:border-emerald-500/50 transition-all">
+                <div class="w-12 h-12 bg-emerald-500/10 text-emerald-400 rounded-xl flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-bacteria"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">2. Mikrobiologi & Biofiltrasi</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Pengelolaan siklus nitrogen dengan bakteri nitrifikasi (Nitrosomonas & Nitrobacter), pemanfaatan probiotik, dan pengolahan limbah organik kolam.
+                </p>
+            </div>
+
+            <!-- Pillar 3 -->
+            <div class="bg-slate-800/50 border border-slate-700/50 p-6 rounded-2xl hover:border-cyan-500/50 transition-all">
+                <div class="w-12 h-12 bg-cyan-500/10 text-cyan-400 rounded-xl flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-egg"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">3. Pemijahan & Larva</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Stimulasi parameter lingkungan, seleksi indukan, proteksi telur dari jamur Saprolegnia, manajemen yolk sac, dan optimalisasi rasio hidup burayak.
+                </p>
+            </div>
+
+            <!-- Pillar 4 -->
+            <div class="bg-slate-800/50 border border-slate-700/50 p-6 rounded-2xl hover:border-emerald-500/50 transition-all">
+                <div class="w-12 h-12 bg-emerald-500/10 text-emerald-400 rounded-xl flex items-center justify-center text-xl mb-4">
+                    <i class="fa-solid fa-wheat-awn"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">4. Nutrisi & Pakan Hidup</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Formulasi kebutuhan protein, asam lemak esensial (HUFA/PUFA), dan vitamin. Teknik kultur pakan alami (Infusoria, Artemia, Daphnia, Moina).
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Water Parameter Table Section -->
+    <section id="parameter" class="py-20 bg-slate-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-white">Acuan Kualitas Parameter Air</h2>
+                <p class="text-slate-400 mt-2">Target standar parameter untuk kesehatan dan keberhasilan pemijahan ikan hias</p>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm text-slate-300 border border-slate-800 rounded-xl overflow-hidden">
+                    <thead class="bg-slate-800 text-cyan-400 uppercase text-xs">
+                        <tr>
+                            <th class="p-4">Parameter</th>
+                            <th class="p-4">Batas Ideal (Pemijahan / Softwater)</th>
+                            <th class="p-4">Batas Ideal (Komunitas Umum)</th>
+                            <th class="p-4">Dampak Fisiologis Jika Tidak Seimbang</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800 bg-slate-900/60">
+                        <tr>
+                            <td class="p-4 font-bold text-white">pH Air</td>
+                            <td class="p-4 font-mono text-emerald-400">6.0 - 6.5</td>
+                            <td class="p-4 font-mono text-cyan-400">6.8 - 7.5</td>
+                            <td class="p-4">Kerusakan selaput insang, stres osmoregulasi, telur gagal menetas.</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-bold text-white">TDS (Total Dissolved Solids)</td>
+                            <td class="p-4 font-mono text-emerald-400">100 - 140 ppm</td>
+                            <td class="p-4 font-mono text-cyan-400">150 - 250 ppm</td>
+                            <td class="p-4">Pengerasan cangkang telur (gagal membelah) jika TDS terlalu tinggi.</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-bold text-white">Amonia Free (NH3)</td>
+                            <td class="p-4 font-mono text-emerald-400">0.0 mg/L</td>
+                            <td class="p-4 font-mono text-emerald-400">0.0 mg/L</td>
+                            <td class="p-4">Toksisitas akut pada darah, pendarahan insang, kematian mendadak.</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-bold text-white">Nitrit (NO2)</td>
+                            <td class="p-4 font-mono text-emerald-400">0.0 mg/L</td>
+                            <td class="p-4 font-mono text-emerald-400">0.0 mg/L</td>
+                            <td class="p-4">Mengikat hemoglobin (Brown Blood Disease), ikan menggantung di permukaan.</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-bold text-white">Suhu Air</td>
+                            <td class="p-4 font-mono text-cyan-400">27°C - 29°C</td>
+                            <td class="p-4 font-mono text-cyan-400">26°C - 28°C</td>
+                            <td class="p-4">Mengontrol laju metabolisme, penetasan telur, dan aktivitas sistem imun.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Kontak / Konsultasi -->
+    <section id="kontak" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-gradient-to-br from-slate-900 via-cyan-950/30 to-slate-900 border border-cyan-800/30 rounded-3xl p-8 md:p-12">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-white">Konsultasi Masalah Ikan & Akuarium</h2>
+                <p class="text-slate-400 mt-3 text-sm leading-relaxed">
+                    Butuh bantuan diagnosis penyakit ikan, pengolahan air RO, kultur pakan hidup, atau formulasi pakan gel? Kirimkan pertanyaan Anda langsung ke tim Fadjar Fish Farm.
+                </p>
+
+                <form class="mt-8 space-y-4 text-left">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Nama Lengkap</label>
+                            <input type="text" placeholder="Nama Anda" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 mb-1">Kategori Topik</label>
+                            <select class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500">
+                                <option>Manajemen Parameter Air & RO</option>
+                                <option>Pemijahan & Perawatan Larva/Yolk</option>
+                                <option>Formulasi Pakan & Kultur Pakan Hidup</option>
+                                <option>Diagnosis & Penanganan Ikan Sakit</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-300 mb-1">Detail Kasus / Pertanyaan</label>
+                        <textarea rows="4" placeholder="Jelaskan nilai parameter air saat ini (pH, TDS), gejala ikan, atau spesies yang dipijahkan..." class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-500"></textarea>
+                    </div>
+                    <button type="button" class="w-full bg-gradient-to-r from-cyan-500 to-emerald-500 hover:from-cyan-400 hover:to-emerald-400 text-slate-950 font-bold py-3.5 rounded-xl transition-all shadow-lg shadow-cyan-500/20">
+                        Kirim Pesan Konsultasi
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-4">
+            <p>&copy; 2026 Fadjar Fish Farm. Spesialis Akuakultur, Parameter Air & Pemijahan Ikan Hias.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
